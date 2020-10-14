@@ -377,7 +377,7 @@ header {
     // height: 250px;
     overflow: hidden;
     position: relative;
-    // padding-right: 50px;
+    //padding-right: 50px;
     margin-bottom: 60px;
     text-align: justify;
 }
@@ -407,6 +407,18 @@ header {
     text-decoration: none;
 }
 
+.col-split {
+    background: #696867;
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    padding: 5px 5px;
+    display: inline-block;
+    margin: 10px;
+    margin-top: 15px;
+}
+
 .aboutme .heading {
     text-align: center;
     padding-top: 78px;
@@ -418,96 +430,8 @@ header {
     display: inline-block;
 }
 
-
 /*----------------------------------------------------
- 7. Technical Skills Style
-------------------------------------------------------*/
-
-.technical {
-    /*background:#eeeeee;
-    color:#474d5d;*/
-}
-
-.technical .container {
-    padding-top: 140px;
-    padding-bottom: 90px;
-}
-
-.technical .heading p {
-    padding-bottom: 41px;
-    max-width: 660px;
-    text-align: justify;
-    display: block;
-    margin: 0 auto;
-}
-
-.technical p {
-    color: #897f8a;
-}
-
-.technical h2 {
-    color: #5b4c5c;
-    margin-bottom: 49px;
-}
-
-.technical .skillsArea {
-    padding: 0px;
-}
-
-.technical .skills {
-    margin: 0 auto;
-    margin-bottom: 23px;
-    text-align: center;
-    padding: 0px;
-    float: none;
-}
-
-.technical .skills h4 {
-    font-weight: 700;
-    // text-transform: uppercase;
-    font-size: 17px;
-    line-height: 27px;
-    padding-bottom: 11px;
-    color: #5b4c5c;
-}
-
-.skilBg {
-    /*background:url(../images/skills.png) no-repeat 0 0;*/
-}
-
-.chart {
-    position: relative;
-    display: inline-block;
-    width: 118px;
-    height: 118px;
-    margin-bottom: 19px;
-    text-align: center;
-}
-
-.chart canvas {
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
-.percent {
-    display: inline-block;
-    font-size: 21px;
-    color: #5b4c5c;
-    line-height: 118px;
-    z-index: 2;
-    font-weight: bold;
-}
-
-.percent:after {
-    content: '%';
-    margin-left: 0.1em;
-    font-size: .8em;
-}
-
-
-/*----------------------------------------------------
- 8. Work Experience Style
+ 7. Work Experience Style
 ------------------------------------------------------*/
 
 .exprience {
@@ -618,6 +542,39 @@ header {
 /*----------------------------------------------------
  9. Education Style
 ------------------------------------------------------*/
+.education {
+    background: #f8f7f8;
+}
+
+.education .container {
+    padding-top: 140px;
+    padding-bottom: 90px;
+}
+
+.education h2 {
+    color: #5b4c5c;
+    margin-bottom: 41px;
+}
+
+.education p {
+    color: #84868d;
+    /*font-size:13px;*/
+    line-height: 18px;
+}
+
+.education .heading p {
+    padding-bottom: 54px;
+    max-width: 660px;
+    text-align: justify;
+    display: block;
+    margin: 0 auto;
+    color: #897f8a;
+    line-height: 27px;
+}
+
+.education h4 {
+    font-weight: 700;
+}
 
 
 /*----------------------------------------------------
@@ -628,9 +585,6 @@ header {
 /*----------------------------------------------------
  14. Reffernces Style
 ------------------------------------------------------*/
-
-.reffernces {}
-
 .reffernces .container {
     padding-top: 140px;
     padding-bottom: 90px;
@@ -753,47 +707,13 @@ header {
     background: #3b323c;
 }
 
-.footer .container {
-    padding: 115px 0 125px;
-    position: relative;
-}
-
 .footer ul {
     margin: 0 auto;
     text-align: center;
     list-style-type: none;
 }
 
-.footer ul li {
-    display: inline-block;
-    text-align: center;
-    background: #ffffff;
-    color: #3b323c;
-    line-height: 42px;
-    margin: 0 6px;
-    width: 51px !important;
-    height: 51px !important;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-}
 
-.footer ul li:hover {
-    background: #282429;
-}
-
-.footer ul li:hover a {
-    color: #fff;
-}
-
-.footer ul li a {
-    color: #3b323c;
-    width: 51px !important;
-    height: 51px !important;
-}
-
-.footer ul li a i {
-    line-height: 52px !important;
-}
 
 .totop {
     display: block;
