@@ -522,8 +522,8 @@ header {
     text-align: left;
 }
 
-.exCon p {
-    color: #897f8a;
+.exCon li {
+    color: #5b4c5c;
     line-height: 27px;
 }
 
@@ -576,6 +576,21 @@ header {
     font-weight: 700;
 }
 
+.exCon li {
+    color:  #5b4c5c;
+    line-height: 27px;
+}
+
+.exCon h4 {
+    color: #5b4c5c;
+    padding-bottom: 1px;
+    margin-top: -8px;
+}
+
+.exCon h5 {
+    color: #5b4c5c;
+    padding-bottom: 11px;
+}
 
 /*----------------------------------------------------
  10. Protfolio Style
