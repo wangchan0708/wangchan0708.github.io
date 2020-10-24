@@ -541,7 +541,7 @@ header {
  9. Education Style
 ------------------------------------------------------*/
 .education {
-    background: #f8f7f8;
+    background: #FFF;
 }
 
 .education .container {
@@ -551,11 +551,13 @@ header {
 
 .education h2 {
     color: #5b4c5c;
+    background: #FFF;
     margin-bottom: 41px;
 }
 
 .education p {
     color: #84868d;
+    background: #FFF;
     /*font-size:13px;*/
     line-height: 18px;
 }
@@ -567,6 +569,7 @@ header {
     display: block;
     margin: 0 auto;
     color: #897f8a;
+    background: #FFF;
     line-height: 27px;
 }
 
@@ -574,20 +577,29 @@ header {
     font-weight: 700;
 }
 
-.exCon li {
+.edCon li {
     color:  #5b4c5c;
     line-height: 27px;
+    background: #FFF;
 }
 
-.exCon h4 {
+.edCon h4 {
     color: #5b4c5c;
     padding-bottom: 1px;
+    background: #FFF;
     margin-top: -8px;
 }
 
-.exCon h5 {
+.edCon h5 {
     color: #5b4c5c;
+    background: #FFF;
     padding-bottom: 11px;
+}
+
+.refBoxcon {
+    background: #FFF;
+    padding: 50px 34px 41px;
+    border-bottom: #e6e6e6 5px solid;
 }
 
 /*----------------------------------------------------

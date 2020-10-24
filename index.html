@@ -56,8 +56,7 @@
             <a href="https://medium.com/@dacn2017"><img src="images/header-image/Medium.png" alt="Medium"></a>
           </div>
           <div class="col-split">
-            <a href="dacn2017@gmail.com"><img
-                src="images/header-image/mail.png" alt="E-mail"></a>
+            <a href="mailto: dacn2017@gmail.com" title=" dacn2017@gmail.com"><img src="images/header-image/mail.png" alt="E-mail"></a>
           </div>
           <div class="col-split">
             <a href="https://www.linkedin.com/in/yunhan-wang-tw/"><img src="images/header-image/linkedIn.png" alt="LinkedIn"></a>
@@ -89,13 +88,13 @@
                         <a href="#aboutme">關於我</a>
                       </li>
                       <li class="menuItem">
+                        <a href="#reffernces">專案項目</a>
+                      </li>
+                      <li class="menuItem">
                         <a href="#exprience">經歷</a>
                       </li>
                       <li class="menuItem">
                         <a href="#education">學歷</a>
-                      </li>
-                      <li class="menuItem">
-                        <a href="#reffernces">專案項目</a>
                       </li>
                     </ul>
                   </div>
@@ -106,7 +105,7 @@
         </div>
       </div>
     </header>
-    <section class="aboutme" id="aboutme">
+     <section class="aboutme" id="aboutme">
       <div class="container">
         <div class="row">
           <div class=" col-xs-12 col-sm-12 col-md-12 col-lg-12 aboutCont">
@@ -131,12 +130,107 @@
         </div>
       </div>
     </section>
+    <section class="reffernces" id="reffernces">
+      <div class="container">
+        <div class="heading">
+          <h2>專案項目</h2>
+          <p>下面包含了自己的研究項目，以及私下基於興趣所做的開發項目。</p>
+        </div>
+        <div class="row waterfall" data-col-min-width="300">
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                [碩士論文]利用Matlab和Adams先行架設了離線版的機器人物理系統，根據不同的受力型態訓練出不同模型對應，並將其轉換成C++語言，實際與機器人身上的感應器連動，實現機器人全身平衡的機制。此外，另用C++所建立的軌跡規劃平台，也可以實現在線/離線的全身軌跡控制。
+              </p>
+              <h3>
+                <a href="https://imgur.com/W7bvyCh">MatLab模擬</a>
+                <a href="https://imgur.com/ijGTPPC">Robot實驗</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                此為在筑波大學交換期間所做的專案研究，主要利用攝影機以及照相機間的轉換矩陣(homography matrix)來實現AR投影技術。主要使用C/C++撰寫，使用OpenCV結合Camshift以及Kalman
+                filter達到動態追蹤以及提升追蹤效果的作用。最後成功實現了AR版本的高爾夫室內推桿器。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/AR_Golf_Trainer/blob/master/Demo.gif">AR推桿機模擬器</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                藉由練習Kaggle上的經典題目，來提升自己的數據分析能力，並學習如何使用真實數據來分析真實生活中的各項議題，習慣會將思考過程以及相關程式碼公開在網上，藉以保存自己的學習紀律。目前以解決的6種經典題中，平均為30%，最高則為Housing
+                Pricing的1%水平。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/Kaggle_Practice">Kaggle練習</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                利用MHI將動態的影片轉化成具時間效果的靜態照片後，利用CNN辨識出開手勢所代表的單詞意義，實際模型訓練準確度可達95%。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/GestureRecog_MHI_CNN">CNN手語辨識</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                主要利用紀錄MOOCs上課堂上所提交的程式碼(包含吳恩達教授以及林軒田教授的課程)，思考過程亦紀錄在個人的medium中。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/ML_MOOCs_HW">ML學習</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+                利用google sheet作為小型線上資料庫，利用python分析台股與美股市場，並使用line chat通知自身設定適合的交易點。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/Stock_Tracking">股票預測機器人</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+              使用Tableau來視覺化數據，分別針對COVID-19實際感染人數以及美國總統川普的相關推特進行分析。該資料庫目前為離線模式。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/COVID-19_dashboard/blob/main/screenshot.PNG">COVID-19</a>
+                <a href="https://github.com/wangchan0708/COVID-19_dashboard/blob/main/screenshot_Twitter.PNG">Drump's
+                  tweet</a>
+              </h3>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
+            <div class="refBoxcon">
+              <p>
+              利用R語言進行NLP，學習如何將中文文章進行清理、斷詞等相關處理後，將其轉換成矩陣，再進行一些簡單分析並繪製出關鍵字詞雲。
+              </p>
+              <h3>
+                <a href="https://github.com/wangchan0708/Text_Mining">Text-Mining</a>
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section class="exprience" id="exprience">
       <div class="container">
         <div class="heading">
           <h2>經歷</h2>
           <p>
-            2019年畢業後直接赴日工作，分別經歷了半導體業以及汽車業等兩大產業，並接觸了機械設計端與量產端兩大主線。在校期間則主要研究商業分析以及設計思考等領域。
+            2019年畢業便直接赴日工作，分別經歷了半導體業以及汽車業等兩大產業，並接觸了機械設計端與量產端兩大主線。在校期間則主要研究控制分析以及設計思考等領域。
           </p>
         </div>
         <div class="row workDetails">
@@ -225,7 +319,7 @@
           </div>
           <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
             <div class="arrowpart"></div>
-            <div class="exCon">
+            <div class="edCon">
               <h4>國立台灣大學</h4>
               <h5>機械研究所 | 系統控制組</h5>
               <ul>
@@ -247,7 +341,7 @@
           </div>
           <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
             <div class="arrowpart"></div>
-            <div class="exCon">
+            <div class="edCon">
               <h4>國立台灣大學 (雙主修)</h4>
               <h5>機械學系 | 經濟學系</h5>
               <ul>
@@ -269,103 +363,13 @@
           </div>
           <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10 rightArea">
             <div class="arrowpart"></div>
-            <div class="exCon">
+            <div class="edCon">
               <h4>日本筑波大學 (留學交換)</h4>
               <h5>工学システム学科</h5>
               <ul>
                 <li>進入影像研究室，學習影像處理相關知識，並在學期內開發出了AR版的高爾夫推桿機</li>
                 <li>#影像處理 #人工智慧 #日文學習</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="reffernces" id="reffernces">
-      <div class="container">
-        <div class="heading">
-          <h2>專案項目</h2>
-          <p>下面包含了自己的研究項目，以及私下基於興趣所做的開發項目。</p>
-        </div>
-        <div class="row waterfall" data-col-min-width="300">
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>[碩士論文]利用Matlab和Adams先行架設了離線版的機器人物理系統，根據不同的受力型態訓練出不同模型對應，並將其轉換成C++語言，實際與機器人身上的感應器連動，實現機器人全身平衡的機制。此外，另用C++所建立的軌跡規劃平台，也可以實現在線/離線的全身軌跡控制。</p>
-              <h3>
-                <a href="https://imgur.com/W7bvyCh">MatLab模擬</a>
-                <a href="https://imgur.com/ijGTPPC">Robot實驗</a>
-              </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-               此為在筑波大學交換期間所做的專案研究，主要利用攝影機以及照相機間的轉換矩陣(homography matrix)來實現AR投影技術。主要使用C/C++撰寫，使用OpenCV結合Camshift以及Kalman filter達到動態追蹤以及提升追蹤效果的作用。最後成功實現了AR版本的高爾夫室內推桿器。
-              </p>
-              <h3>
-                            <a href="https://github.com/wangchan0708/AR_Golf_Trainer/blob/master/Demo.gif">AR推桿機模擬</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-                藉由練習Kaggle上的經典題目，來提升自己的數據分析能力，並學習如何使用真實數據來分析真實生活中的各項議題，習慣會將思考過程以及相關程式碼公開在網上，藉以保存自己的學習紀律。目前以解決的6種經典題中，平均為30%，最高則為Housing Pricing的1%水平。
-              </p>
-              <h3>
-                            <a href="https://github.com/bear-front-end">Kaggle練習</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-                
-              </p>
-              <h3>
-                            <a href="https://github.com/cody1991/gulp-template">CNN手語辨識</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-                
-              </p>
-              <h3>
-                            <a href="http://api.impingo.me/miniSite/livePage?liveID=9311d5a9d">ML學習</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-                
-              </p>
-              <h3>
-                            <a href="http://www.impingo.me/homepage/index.html">股票預測機器人</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-               
-              </p>
-              <h3>
-                            <a href="http://a.impingo.me/activity/showRecommendH5?isFamous=1&openId=o4s3LjjIznRpPupFFoXwem4RD9Hs">COVID-19</a>
-                            <a href="http://a.impingo.me/activity/showRecommend32?isFamous=1&openId=o4s3LjjIznRpPupFFoXwem4RD9Hs#107">Drump's tweet</a>
-                            </h3>
-            </div>
-          </div>
-          <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 refBox">
-            <div class="refBoxcon">
-              <p>
-  
-              </p>
-              <h3>
-                            <a href="https://github.com/cody1991/webgltang">Text-Mining</a>
-                            </h3>
             </div>
           </div>
         </div>
