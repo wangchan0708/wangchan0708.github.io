@@ -577,6 +577,13 @@ header {
     font-weight: 700;
 }
 
+.edCon {
+    width: auto;
+    padding: 0 47px 6px 70px;
+    margin-left: 15px;
+    text-align: left;
+}
+
 .edCon li {
     color:  #5b4c5c;
     line-height: 27px;
@@ -595,13 +602,6 @@ header {
     background: #FFF;
     padding-bottom: 11px;
 }
-
-.refBoxcon {
-    background: #FFF;
-    padding: 50px 34px 41px;
-    border-bottom: #e6e6e6 5px solid;
-}
-
 /*----------------------------------------------------
  10. Protfolio Style
 ------------------------------------------------------*/
