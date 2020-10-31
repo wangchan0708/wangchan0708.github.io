@@ -250,7 +250,10 @@ header {
 }
 
 .navbar-inverse .navbar-toggle:hover,
-.navbar-inverse .navbar-toggle:focus {}
+.navbar-inverse .navbar-toggle:focus {
+
+    color:#4c404d;
+}
 
 .navbar-brand {
     margin-top: 4px;
