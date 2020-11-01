@@ -395,10 +395,11 @@ header {
     font-size: 18px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
-    border: 3px solid #5b4c5c;
+    border: 4px solid #7B7B7B;
+    margin-left: 10px;
     padding: 10px 10px;
     display: inline-block;
-    color: #5b4c5c;
+    color: #7B7B7B;
     transition-duration: 0.2s;
     -webkit-transition-duration: 0.2s;
     margin-bottom: 10px;
